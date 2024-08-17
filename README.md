@@ -9,8 +9,8 @@ In this case study, we will follow the six steps Data Analysis Process i.e. Ask,
 1. [Ask](#ask)
 2. [Prepare](#prepare)
 3. [Process](#process)
-4,5. [Analyze & Share](#analyze-&-share)
-6. [Act](#act)
+4. [Analyze & Share](#analyze-and-share)
+5. [Act](#act)
 
 ## ASK:
 
@@ -208,7 +208,7 @@ data.describe()
 
 
 
-## 3)PROCESS:
+## PROCESS:
 
 The third phase is to process the data. Data processing is to find various inaccuracies, errors, inconsistencies in the data and get rid of them so that our business problem is not affected. 
 During this phase,
@@ -281,7 +281,7 @@ data["Order Date"].dtype
 data["Order Date"] = pd.to_datetime(data["Order Date"])
 ```
 
-## ANALYZE & SHARE:
+## ANALYZE and SHARE:
 
 Now the data is ready for further analysis! The fourth phase is to analyze data by organizing, sorting, filtering and transforming data and the fifth phase is to Share data. We need to create visualizations to share your findings.
 
