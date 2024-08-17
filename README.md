@@ -10,7 +10,14 @@ In this case study, we will follow the six steps Data Analysis Process i.e. Ask,
 2. [Prepare](#prepare)
 3. [Process](#process)
 4. [Analyze & Share](#analyze-and-share)
-5. [Act](#act)
+   - [1.1 Most Purchased Category](#11-most-purchased-category)
+   - [1.2 Most Demanding Items from Sub-Category](#12-most-demanding-items-from-sub-category)
+   - [1.3 Total Profitable Segments](#13-total-profitable-segments)
+   - [1.4 Top 10 Most Loyal Customers](#14-top-10-most-loyal-customers)
+   - [1.5 Profit in Different Region](#15-profit-in-different-region)
+   - [1.6 Lowest Shipping Mode](#16-lowest-shipping-mode)
+   - [1.7 Total Sales & Profit Gained Year-Wise](#17-total-sales-and-profit-gained-year-wise)
+6. [Act](#act)
 
 ## ASK:
 
@@ -285,7 +292,7 @@ data["Order Date"] = pd.to_datetime(data["Order Date"])
 
 Now the data is ready for further analysis! The fourth phase is to analyze data by organizing, sorting, filtering and transforming data and the fifth phase is to Share data. We need to create visualizations to share your findings.
 
-### A)Most Purchased Category
+### 1.1 Most Purchased Category
 
 
 ```python
@@ -302,7 +309,7 @@ plt.show()
 
 Here, the plot provides a snapshot of how products are distributed among different categories and which is the most purchased category from the store.
 
-### B)Most Demanding Items from Sub-Category
+### 1.2 Most Demanding Items from Sub-Category
 
 
 ```python
@@ -321,7 +328,7 @@ plt.show()
 
 This figure is the distribution of products across different sub-categories. Therefore, the store manager should make sure it's not falling out of stock due to huge demand.
 
-### C)Total Profitable Segments
+### 1.3 Total Profitable Segments
 
 
 ```python
@@ -341,7 +348,7 @@ plt.show()
 
 The resulting plot provides a quick and insightful comparison of profitability among various customer segments.
 
-### D)Top 10 Most Loyal Customers
+### 1.4 Top 10 Most Loyal Customers
 
 
 ```python
@@ -362,7 +369,7 @@ plt.show()
 
 Here is a horizontal bar graph representing the top 10 most purchasing from the store.So, I recomend to give any coupons or discounts from the store to increase the number of customers and spread loyality.  
 
-### E)Profit in Different Region
+### 1.5 Profit in Different Region
 
 
 ```python
@@ -381,7 +388,7 @@ plt.show()
 
 This piechart evaluates the profitability generated across different regions — Central, East, South, and West.
 
-### F)Lowest Shipping Mode
+### 1.6 Lowest Shipping Mode
 
 
 ```python
@@ -403,7 +410,7 @@ plt.show()
 
 This graph predicts the Lowest Shipping mode. So, we can aim to increase our productivity by providing delivery service at ease.
 
-### G)Total Sales & Profit Gained Year-Wise
+### 1.7 Total Sales and Profit Gained Year-Wise
 
 Here I extracted Year from Order Date and modified the column for simplicity.
 
