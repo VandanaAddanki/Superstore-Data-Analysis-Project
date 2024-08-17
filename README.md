@@ -9,11 +9,10 @@ In this case study, we will follow the six steps Data Analysis Process i.e. Ask,
 1. [Ask](#ask)
 2. [Prepare](#prepare)
 3. [Process](#process)
-4. [Analyze](#analyze)
-5. [Share](#share)
+4,5. [Analyze & Share](#analyze-&-share)
 6. [Act](#act)
 
-## 1)ASK:
+## ASK:
 
 Firstly, Is there any profit in establishing a store within these (2014-2017) years?
 
@@ -26,7 +25,7 @@ If I want to open any branches, which region will I be profited?
 Which segment is increasing the store's profit?
 These are the few questions I came across after looking at the **Superstore dataset**.
 
-## 2)PREPARE:
+## PREPARE:
 
 Then the second phase Prepare which means to collect or use data relevant to the problem we are trying to solve. In this case, we will be using [Superstore Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).Firstly, we need to import **Pandas**, **Numpy**, **Matplotlib** and **Seaborn** in our Python Environment .In this project, I used Jupyter Notebook as an IDE.
 
@@ -282,7 +281,7 @@ data["Order Date"].dtype
 data["Order Date"] = pd.to_datetime(data["Order Date"])
 ```
 
-## 4,5)ANALYZE & SHARE:
+## ANALYZE & SHARE:
 
 Now the data is ready for further analysis! The fourth phase is to analyze data by organizing, sorting, filtering and transforming data and the fifth phase is to Share data. We need to create visualizations to share your findings.
 
@@ -382,7 +381,7 @@ plt.show()
 
 This piechart evaluates the profitability generated across different regions — Central, East, South, and West.
 
-### E)Lowest Shipping Mode
+### F)Lowest Shipping Mode
 
 
 ```python
@@ -404,7 +403,7 @@ plt.show()
 
 This graph predicts the Lowest Shipping mode. So, we can aim to increase our productivity by providing delivery service at ease.
 
-### F)Total Sales & Profit Gained Year-Wise
+### G)Total Sales & Profit Gained Year-Wise
 
 Here I extracted Year from Order Date and modified the column for simplicity.
 
@@ -452,7 +451,7 @@ plt.show()
 
 The graph provides a clear visual representation of the growth in sales and profit over four years. While sales have increased significantly, profit growth has been more modest, suggesting potential areas for improvement in cost management and operational efficiency.
 
-## 6)ACT:
+## ACT:
 
 The sixth phase of data analysis is to use every insight we learnt to solve the problem. We have to provide information that can help them to decide.The following are conclusions drawn from the analysis.
 
